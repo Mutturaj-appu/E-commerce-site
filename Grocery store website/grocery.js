@@ -1,7 +1,4 @@
 let searchForm = document.querySelector('.search-form');
-// let searchForm = document.getElementById('search-form');
-// let searchForm = document.getElementsByClassName('search-form');
-
 document.querySelector('#search-btn').onclick = () =>{
     searchForm.classList.toggle('active');
     shoppingCart.classList.remove('active');
